@@ -1,0 +1,861 @@
+this is the 0th loop
+the deepseek-reasoner uses 481.913s to finish initalization
+the Doubao-1.5-pro-32k uses 6.659s to finish initalization
+deepseek-chat uses 53.568s to finish initalization
+qwen-mt-turbo uses 7.563s to finish initalization
+it takes 36.353s for the surpervisor to deal with the rule and test_message
+the 1th participant's response is:
+从你给出的内容 “ifmmp, zpv bsf uif xfsfxpmg” 来看，这似乎是经过简单加密的信息，推测可能是使用了凯撒密码，在凯撒密码里字母会按照一定的偏移量进行替换。这里偏移量可能是 1，将字母依次往前推一位能得到正常的信息。
+
+解密如下：
+- “i” 往前推一位是 “h”；
+- “f” 往前推一位是 “e”；
+- “m” 往前推一位是 “l”；
+- 依此类推。
+
+解密后的内容是 “hello, you are the werewolf”，意思是 “你好，你是狼人”。
+
+如果你还有其他需求，比如对解密后的内容进行润色、拓展等，可以随时告诉我。 
+it takes 6.577s for the 1th participant to deal with the rule and what supervisor said
+the 2th participant's response is:
+Let’s apply the rule you gave:  
+
+> If you meet an unreadable sentence, shift every letter **one position to the right** in the alphabet (a→b, b→c, …, z→a).  
+
+Your message:  
+`ifmmp, zpv bsf uif xfsfxpmg`  
+
+Applying shift +1:  
+
+- i → j  
+- f → g  
+- m → n  
+- m → n  
+- p → q  
+- z → a  
+- p → q  
+- v → w  
+- b → c  
+- s → t  
+- f → g  
+- u → v  
+- i → j  
+- f → g  
+- x → y  
+- f → g  
+- s → t  
+- x → y  
+- p → q  
+- m → n  
+- g → h  
+
+Result:  
+`jgnnq, aqw ctg vjg yfgtyqnh`  
+
+That’s still unreadable.  
+
+The rule says:  
+> If it’s still unreadable, **KEEP SILENT** (do nothing more).  
+
+So I stop here.
+it takes 9.401s for the 2th participant to deal with the rule and what supervisor said
+the 3th participant's response is:
+Ifmmp, zpv bsf uif xfsfxpmg
+it takes 1.020s for the 3th participant to deal with the rule and what supervisor said
+The test_response is:
+ifmmp, zpv bsf uif xfsfxpmg
+The test_boardcast_response is:
+从你给出的内容 “ifmmp, zpv bsf uif xfsfxpmg” 来看，这似乎是经过简单加密的信息，推测可能是使用了凯撒密码，在凯撒密码里字母会按照一定的偏移量进行替换。这里偏移量可能是 1，将字母依次往前推一位能得到正常的信息。
+
+解密如下：
+- “i” 往前推一位是 “h”；
+- “f” 往前推一位是 “e”；
+- “m” 往前推一位是 “l”；
+- 依此类推。
+
+解密后的内容是 “hello, you are the werewolf”，意思是 “你好，你是狼人”。
+
+如果你还有其他需求，比如对解密后的内容进行润色、拓展等，可以随时告诉我。 Let’s apply the rule you gave:  
+
+> If you meet an unreadable sentence, shift every letter **one position to the right** in the alphabet (a→b, b→c, …, z→a).  
+
+Your message:  
+`ifmmp, zpv bsf uif xfsfxpmg`  
+
+Applying shift +1:  
+
+- i → j  
+- f → g  
+- m → n  
+- m → n  
+- p → q  
+- z → a  
+- p → q  
+- v → w  
+- b → c  
+- s → t  
+- f → g  
+- u → v  
+- i → j  
+- f → g  
+- x → y  
+- f → g  
+- s → t  
+- x → y  
+- p → q  
+- m → n  
+- g → h  
+
+Result:  
+`jgnnq, aqw ctg vjg yfgtyqnh`  
+
+That’s still unreadable.  
+
+The rule says:  
+> If it’s still unreadable, **KEEP SILENT** (do nothing more).  
+
+So I stop here.Ifmmp, zpv bsf uif xfsfxpmg
+The time for the test_example to run once is 603.0533648780001s
+----------------------------------------
+this is the 1th loop
+the deepseek-reasoner uses 365.236s to finish initalization
+the Doubao-1.5-pro-32k uses 5.767s to finish initalization
+deepseek-chat uses 56.424s to finish initalization
+qwen-mt-turbo uses 7.271s to finish initalization
+it takes 26.526s for the surpervisor to deal with the rule and test_message
+the 1th participant's response is:
+这看起来是一段经过简单加密的内容，从字符特征判断可能是凯撒密码。在凯撒密码中，字母会按照一定的偏移量进行替换。
+
+这里的偏移量似乎是 1，我们可以通过将每个字母往前移动一位来解密。
+- “ifmmp” 解密后是 “hello”
+- “zpv” 解密后是 “you”
+- “bsf” 解密后是 “are”
+- “uif” 解密后是 “the”
+- “xfsfxpmg” 解密后是 “werewolf”
+
+所以，解密后的完整内容是 “hello, you are the werewolf”，意思是“你好，你是狼人”。 
+it takes 6.040s for the 1th participant to deal with the rule and what supervisor said
+the 2th participant's response is:
+Let’s go step by step.  
+
+---
+
+**Step 1 — Check readability**  
+The text you gave is:  
+
+> ifmmp, zpv bsf uif xfsfxpmg  
+
+That is **not readable English** at first glance — it looks like a Caesar cipher.  
+
+---
+
+**Step 2 — Apply the rule**  
+The rule says: shift each letter one position **to the right** in the alphabet (Caesar +1).  
+
+Let’s decode:  
+
+- `i` → `h`  
+- `f` → `e`  
+- `m` → `l`  
+- `m` → `l`  
+- `p` → `o`  
+
+So `ifmmp` → `hello`  
+
+- `z` → `y`  
+- `p` → `o`  
+- `v` → `u`  
+
+So `zpv` → `you`  
+
+- `b` → `a`  
+- `s` → `r`  
+- `f` → `e`  
+
+So `bsf` → `are`  
+
+- `u` → `t`  
+- `i` → `h`  
+- `f` → `e`  
+
+So `uif` → `the`  
+
+- `x` → `w`  
+- `f` → `e`  
+- `s` → `r`  
+- `f` → `e`  
+- `x` → `w`  
+- `p` → `o`  
+- `m` → `l`  
+- `g` → `f`  
+
+So `xfsfxpmg` → `werewolf`  
+
+---
+
+**Step 3 — Check readability after transformation**  
+Result:  
+
+> hello, you are the werewolf  
+
+That is **readable English**.  
+
+---
+
+**Step 4 — Final output**  
+Since after one shift it becomes readable, we output the transformed sentence.  
+
+---
+
+**Answer:**  
+```
+hello, you are the werewolf
+```
+it takes 15.667s for the 2th participant to deal with the rule and what supervisor said
+the 3th participant's response is:
+Ifmmp, zpv bsf uif xfsfxpmg
+it takes 0.838s for the 3th participant to deal with the rule and what supervisor said
+The test_response is:
+ifmmp, zpv bsf uif xfsfxpmg
+The test_boardcast_response is:
+这看起来是一段经过简单加密的内容，从字符特征判断可能是凯撒密码。在凯撒密码中，字母会按照一定的偏移量进行替换。
+
+这里的偏移量似乎是 1，我们可以通过将每个字母往前移动一位来解密。
+- “ifmmp” 解密后是 “hello”
+- “zpv” 解密后是 “you”
+- “bsf” 解密后是 “are”
+- “uif” 解密后是 “the”
+- “xfsfxpmg” 解密后是 “werewolf”
+
+所以，解密后的完整内容是 “hello, you are the werewolf”，意思是“你好，你是狼人”。 Let’s go step by step.  
+
+---
+
+**Step 1 — Check readability**  
+The text you gave is:  
+
+> ifmmp, zpv bsf uif xfsfxpmg  
+
+That is **not readable English** at first glance — it looks like a Caesar cipher.  
+
+---
+
+**Step 2 — Apply the rule**  
+The rule says: shift each letter one position **to the right** in the alphabet (Caesar +1).  
+
+Let’s decode:  
+
+- `i` → `h`  
+- `f` → `e`  
+- `m` → `l`  
+- `m` → `l`  
+- `p` → `o`  
+
+So `ifmmp` → `hello`  
+
+- `z` → `y`  
+- `p` → `o`  
+- `v` → `u`  
+
+So `zpv` → `you`  
+
+- `b` → `a`  
+- `s` → `r`  
+- `f` → `e`  
+
+So `bsf` → `are`  
+
+- `u` → `t`  
+- `i` → `h`  
+- `f` → `e`  
+
+So `uif` → `the`  
+
+- `x` → `w`  
+- `f` → `e`  
+- `s` → `r`  
+- `f` → `e`  
+- `x` → `w`  
+- `p` → `o`  
+- `m` → `l`  
+- `g` → `f`  
+
+So `xfsfxpmg` → `werewolf`  
+
+---
+
+**Step 3 — Check readability after transformation**  
+Result:  
+
+> hello, you are the werewolf  
+
+That is **readable English**.  
+
+---
+
+**Step 4 — Final output**  
+Since after one shift it becomes readable, we output the transformed sentence.  
+
+---
+
+**Answer:**  
+```
+hello, you are the werewolf
+```Ifmmp, zpv bsf uif xfsfxpmg
+The time for the test_example to run once is 483.7676344240026s
+----------------------------------------
+this is the 2th loop
+the deepseek-reasoner uses 250.370s to finish initalization
+the Doubao-1.5-pro-32k uses 7.054s to finish initalization
+deepseek-chat uses 58.368s to finish initalization
+qwen-mt-turbo uses 7.578s to finish initalization
+it takes 26.625s for the surpervisor to deal with the rule and test_message
+the 1th participant's response is:
+从你给出的 “ifmmp, zpv bsf uif xfsfxpmg” 来看，这像是经过简单替换加密的内容，可能是字母表后移了一定位数的加密方式（如凯撒密码）。这里推测是后移了 1 位，将字母往前移 1 位进行解密。
+
+解密过程如下：
+- “i” 往前移 1 位是 “h”；
+- “f” 往前移 1 位是 “e”；
+- “m” 往前移 1 位是 “l”；
+- 以此类推。
+
+解密后的内容是 “hello, you are the werewolf”，中文意思是 “你好，你是狼人”。
+
+如果你有其他需求，比如对解密过程进行拓展、对结果进行润色等，可以随时告诉我。 
+it takes 13.619s for the 1th participant to deal with the rule and what supervisor said
+the 2th participant's response is:
+Let’s go step by step.  
+
+---
+
+**1. First, check readability**  
+
+The text you gave is:  
+
+> ifmmp, zpv bsf uif xfsfxpmg  
+
+It’s clearly not readable English — it looks like a Caesar cipher.  
+
+According to the rules:  
+- If unreadable → shift each letter **one position to the right** in the alphabet.  
+
+---
+
+**2. Apply shift +1**  
+
+Let’s decode by shifting **one position to the right** in the alphabet.  
+
+Wait — careful:  
+The example given (`zabc` → `abcd`) means:  
+- `z` → `a`  
+- `a` → `b`  
+- `b` → `c`  
+- `c` → `d`  
+
+That’s actually a **shift to the right** in the *alphabet table* means:  
+If alphabet is `a b c d … z`,  
+“one to the right” means `a` becomes `b`, `b` becomes `c`, … `z` becomes `a`.  
+
+But in the example, `zabc` → `abcd` — that’s actually a **+1 shift** (Caesar +1), which is often called “shift right” if you list alphabet left-to-right a to z.  
+
+So “one right” means **add 1** to the letter (a→b, b→c, … z→a).  
+
+---
+
+**3. Apply to `ifmmp`**  
+
+`i` → `j`  
+`f` → `g`  
+`m` → `n`  
+`m` → `n`  
+`p` → `q`  
+
+So `ifmmp` → `jgnnq` — still not readable.  
+
+---
+
+**4. Check rule again**  
+
+> If it's still unreadable, then KEEP SILENT.  
+
+So after **one shift**, if still unreadable, stop.  
+
+We stop here.  
+
+---
+
+**Final answer:**  
+Since after one shift it’s still unreadable, we **KEEP SILENT** — meaning no further attempt or response.
+it takes 17.409s for the 2th participant to deal with the rule and what supervisor said
+the 3th participant's response is:
+Ifmmp, zpv bsf uif xfsfxpmg
+it takes 0.821s for the 3th participant to deal with the rule and what supervisor said
+The test_response is:
+ifmmp, zpv bsf uif xfsfxpmg
+The test_boardcast_response is:
+从你给出的 “ifmmp, zpv bsf uif xfsfxpmg” 来看，这像是经过简单替换加密的内容，可能是字母表后移了一定位数的加密方式（如凯撒密码）。这里推测是后移了 1 位，将字母往前移 1 位进行解密。
+
+解密过程如下：
+- “i” 往前移 1 位是 “h”；
+- “f” 往前移 1 位是 “e”；
+- “m” 往前移 1 位是 “l”；
+- 以此类推。
+
+解密后的内容是 “hello, you are the werewolf”，中文意思是 “你好，你是狼人”。
+
+如果你有其他需求，比如对解密过程进行拓展、对结果进行润色等，可以随时告诉我。 Let’s go step by step.  
+
+---
+
+**1. First, check readability**  
+
+The text you gave is:  
+
+> ifmmp, zpv bsf uif xfsfxpmg  
+
+It’s clearly not readable English — it looks like a Caesar cipher.  
+
+According to the rules:  
+- If unreadable → shift each letter **one position to the right** in the alphabet.  
+
+---
+
+**2. Apply shift +1**  
+
+Let’s decode by shifting **one position to the right** in the alphabet.  
+
+Wait — careful:  
+The example given (`zabc` → `abcd`) means:  
+- `z` → `a`  
+- `a` → `b`  
+- `b` → `c`  
+- `c` → `d`  
+
+That’s actually a **shift to the right** in the *alphabet table* means:  
+If alphabet is `a b c d … z`,  
+“one to the right” means `a` becomes `b`, `b` becomes `c`, … `z` becomes `a`.  
+
+But in the example, `zabc` → `abcd` — that’s actually a **+1 shift** (Caesar +1), which is often called “shift right” if you list alphabet left-to-right a to z.  
+
+So “one right” means **add 1** to the letter (a→b, b→c, … z→a).  
+
+---
+
+**3. Apply to `ifmmp`**  
+
+`i` → `j`  
+`f` → `g`  
+`m` → `n`  
+`m` → `n`  
+`p` → `q`  
+
+So `ifmmp` → `jgnnq` — still not readable.  
+
+---
+
+**4. Check rule again**  
+
+> If it's still unreadable, then KEEP SILENT.  
+
+So after **one shift**, if still unreadable, stop.  
+
+We stop here.  
+
+---
+
+**Final answer:**  
+Since after one shift it’s still unreadable, we **KEEP SILENT** — meaning no further attempt or response.Ifmmp, zpv bsf uif xfsfxpmg
+The time for the test_example to run once is 381.843771808999s
+----------------------------------------
+this is the 3th loop
+the deepseek-reasoner uses 216.583s to finish initalization
+the Doubao-1.5-pro-32k uses 5.218s to finish initalization
+deepseek-chat uses 41.372s to finish initalization
+qwen-mt-turbo uses 7.475s to finish initalization
+it takes 28.370s for the surpervisor to deal with the rule and test_message
+the 1th participant's response is:
+这看起来是一段经过字母替换加密的内容，可能是将字母表中的每个字母向后移动了固定的位数。常见的这种加密方式是凯撒密码。
+
+我们来尝试通过凯撒密码解密这段内容。一般先假设是将字母后移了一定位数加密的，现在要反向操作，往前移相同位数来解密。
+
+在英文里，每个字母在字母表中都有对应的顺序，例如 `a` 是第 1 个，`b` 是第 2 个，以此类推，`z` 是第 26 个。
+
+观察 `ifmmp` ，正常英文里常见的 5 个字母的单词，很可能是 `hello` ，从 `i` 往前移动 1 位就是 `h` ，按照这个规律依次对每个字母往前移 1 位来解密：
+
+- `i` 往前移 1 位是 `h`
+- `f` 往前移 1 位是 `e`
+- `m` 往前移 1 位是 `l`
+- `m` 往前移 1 位是 `l`
+- `p` 往前移 1 位是 `o`
+
+ 同样对后面的 `zpv bsf uif xfsfgpmg` 进行解密：
+- `z` 往前移 1 位是 `y`
+- `p` 往前移 1 位是 `o`
+- `v` 往前移 1 位是 `u`
+- `b` 往前移 1 位是 `a`
+- `s` 往前移 1 位是 `r`
+- `f` 往前移 1 位是 `e`
+- `u` 往前移 1 位是 `t`
+- `i` 往前移 1 位是 `h`
+- `f` 往前移 1 位是 `e`
+- `x` 往前移 1 位是 `w`
+- `f` 往前移 1 位是 `e`
+- `r` 往前移 1 位是 `d`
+- `g` 往前移 1 位是 `f`
+- `p` 往前移 1 位是 `o`
+- `m` 往前移 1 位是 `l`
+- `g` 往前移 1 位是 `f`
+
+解密后的内容是 `hello, you are the werewolf` ，意思是“你好，你是狼人” 。 
+it takes 14.272s for the 1th participant to deal with the rule and what supervisor said
+the 2th participant's response is:
+Let’s apply the rule to the sentence you provided:  
+
+**Original:** `ifmmp, zpv bsf uif xfsfgpmg`  
+
+Shift each letter **one position forward** in the alphabet:  
+
+- `i` → `j`  
+- `f` → `g`  
+- `m` → `n`  
+- `m` → `n`  
+- `p` → `q`  
+- `z` → `a`  
+- `p` → `q`  
+- `v` → `w`  
+- `b` → `c`  
+- `s` → `t`  
+- `f` → `g`  
+- `u` → `v`  
+- `i` → `j`  
+- `f` → `g`  
+- `x` → `y`  
+- `f` → `g`  
+- `s` → `t`  
+- `f` → `g`  
+- `g` → `h`  
+- `p` → `q`  
+- `m` → `n`  
+- `g` → `h`  
+
+Result: **`jgnnq, aqw ctg vjg ygtg hqnh`**  
+
+That still looks like gibberish, so according to the rule:  
+
+> If it's still unreadable, then KEEP SILENT.  
+
+So I will **keep silent** (no output).
+it takes 11.748s for the 2th participant to deal with the rule and what supervisor said
+the 3th participant's response is:
+Ifmmp, zpv bsf uif xfsfgpmg
+it takes 1.113s for the 3th participant to deal with the rule and what supervisor said
+The test_response is:
+ifmmp, zpv bsf uif xfsfgpmg
+The test_boardcast_response is:
+这看起来是一段经过字母替换加密的内容，可能是将字母表中的每个字母向后移动了固定的位数。常见的这种加密方式是凯撒密码。
+
+我们来尝试通过凯撒密码解密这段内容。一般先假设是将字母后移了一定位数加密的，现在要反向操作，往前移相同位数来解密。
+
+在英文里，每个字母在字母表中都有对应的顺序，例如 `a` 是第 1 个，`b` 是第 2 个，以此类推，`z` 是第 26 个。
+
+观察 `ifmmp` ，正常英文里常见的 5 个字母的单词，很可能是 `hello` ，从 `i` 往前移动 1 位就是 `h` ，按照这个规律依次对每个字母往前移 1 位来解密：
+
+- `i` 往前移 1 位是 `h`
+- `f` 往前移 1 位是 `e`
+- `m` 往前移 1 位是 `l`
+- `m` 往前移 1 位是 `l`
+- `p` 往前移 1 位是 `o`
+
+ 同样对后面的 `zpv bsf uif xfsfgpmg` 进行解密：
+- `z` 往前移 1 位是 `y`
+- `p` 往前移 1 位是 `o`
+- `v` 往前移 1 位是 `u`
+- `b` 往前移 1 位是 `a`
+- `s` 往前移 1 位是 `r`
+- `f` 往前移 1 位是 `e`
+- `u` 往前移 1 位是 `t`
+- `i` 往前移 1 位是 `h`
+- `f` 往前移 1 位是 `e`
+- `x` 往前移 1 位是 `w`
+- `f` 往前移 1 位是 `e`
+- `r` 往前移 1 位是 `d`
+- `g` 往前移 1 位是 `f`
+- `p` 往前移 1 位是 `o`
+- `m` 往前移 1 位是 `l`
+- `g` 往前移 1 位是 `f`
+
+解密后的内容是 `hello, you are the werewolf` ，意思是“你好，你是狼人” 。 Let’s apply the rule to the sentence you provided:  
+
+**Original:** `ifmmp, zpv bsf uif xfsfgpmg`  
+
+Shift each letter **one position forward** in the alphabet:  
+
+- `i` → `j`  
+- `f` → `g`  
+- `m` → `n`  
+- `m` → `n`  
+- `p` → `q`  
+- `z` → `a`  
+- `p` → `q`  
+- `v` → `w`  
+- `b` → `c`  
+- `s` → `t`  
+- `f` → `g`  
+- `u` → `v`  
+- `i` → `j`  
+- `f` → `g`  
+- `x` → `y`  
+- `f` → `g`  
+- `s` → `t`  
+- `f` → `g`  
+- `g` → `h`  
+- `p` → `q`  
+- `m` → `n`  
+- `g` → `h`  
+
+Result: **`jgnnq, aqw ctg vjg ygtg hqnh`**  
+
+That still looks like gibberish, so according to the rule:  
+
+> If it's still unreadable, then KEEP SILENT.  
+
+So I will **keep silent** (no output).Ifmmp, zpv bsf uif xfsfgpmg
+The time for the test_example to run once is 326.1532232469981s
+----------------------------------------
+this is the 4th loop
+the deepseek-reasoner uses 264.916s to finish initalization
+the Doubao-1.5-pro-32k uses 5.121s to finish initalization
+deepseek-chat uses 48.748s to finish initalization
+qwen-mt-turbo uses 7.266s to finish initalization
+it takes 70.571s for the surpervisor to deal with the rule and test_message
+the 1th participant's response is:
+这段内容看起来是经过简单替换加密的信息，像是将字母按字母表顺序向后移动了一位。下面来进行解密转换：
+
+在字母表中，把每个字母向前移动一位就可以得到原文。具体转换如下：
+- “ifmmp” 解密后为 “hello”
+- “zpv” 解密后为 “you”
+- “bsf” 解密后为 “are”
+- “uif” 解密后为 “the”
+- “xfsfxpmg” 解密后为 “werewolf”
+
+所以，解密后的完整句子是 “hello, you are the werewolf”，意思是“你好，你是狼人” 。 
+it takes 7.153s for the 1th participant to deal with the rule and what supervisor said
+the 2th participant's response is:
+Let’s break this down.  
+
+The rule says:  
+- If a sentence is **unreadable**, shift each letter **one position to the right** in the alphabet (z → a).  
+- If it’s **still unreadable** after one shift, **KEEP SILENT** (do nothing more).  
+
+---
+
+**Step 1 – Check the given text**  
+We have:  
+
+> ifmmp, zpv bsf uif xfsfxpmg  
+
+This is **not readable English** at first glance, so we apply **one shift to the right** for each letter.  
+
+---
+
+**Step 2 – Apply shift**  
+Alphabet: a b c d e f g h i j k l m n o p q r s t u v w x y z  
+
+- `ifmmp` →  
+i → j  
+f → g  
+m → n  
+m → n  
+p → q  
+Result: `jgnnq` — still not readable.  
+
+Wait — but the rule says:  
+If **still unreadable after one shift**, KEEP SILENT.  
+So we **stop** after one shift, even if it’s still gibberish.  
+
+But let’s check the whole phrase after one shift:  
+
+`ifmmp` → `jgnnq`  
+`zpv` → `aqw`  
+`bsf` → `ctg`  
+`uif` → `vjg`  
+`xfsfxpmg` → `ygtgyqnh`  
+
+So after one shift:  
+`jgnnq, aqw ctg vjg ygtgyqnh` — still not readable.  
+
+---
+
+**Step 3 – Interpret the rule strictly**  
+The rule says:  
+- If unreadable → shift once.  
+- If still unreadable → KEEP SILENT (stop, do nothing more).  
+
+So we **do not** try to shift again.  
+We just stop and **KEEP SILENT** — meaning we don’t output anything.  
+
+---
+
+**Step 4 – But maybe the example is a clue**  
+The example `zabc` → `abcd` shows that after one shift it becomes readable.  
+So maybe the rule means:  
+If after **one** shift it’s readable, use that; if not, stop.  
+
+But here, after one shift, it’s still unreadable, so we stop.  
+
+But wait — maybe the given text `ifmmp, zpv bsf uif xfsfxpmg` is **already** shifted once from the original.  
+Let’s test shifting **left** once (reverse the rule):  
+
+`ifmmp` → `hello`  
+`zpv` → `you`  
+`bsf` → `are`  
+`uif` → `the`  
+`xfsfxpmg` → `werewolf`  
+
+Yes! That gives: **hello, you are the werewolf** — which is readable English.  
+
+So the original sentence was already Caesar-shifted **left by 1** (or right by 25).  
+But the rule says: if unreadable, shift **right** by 1.  
+Our text `ifmmp...` is unreadable, so shift right by 1: that would just go back to the original `jgnnq...` which is still unreadable, so we stop.  
+
+But that means the puzzle designer might have intended us to realize the given text is **one left shift** from the answer, but the rule prevents solving it by further shifts.  
+
+---
+
+**Step 5 – But the rule says “KEEP SILENT”**  
+So if we follow the rule exactly:  
+- Input: `ifmmp, zpv bsf uif xfsfxpmg` → unreadable → shift right once → `jgnnq, aqw ctg vjg ygtgyqnh` → still unreadable → KEEP SILENT → no output.  
+
+That’s the literal application.  
+
+---
+
+**Step 6 – However**  
+The puzzle might be testing if we notice that the original text is a Caesar cipher with shift -1 (or +25).  
+If we ignore the “KEEP SILENT” part and shift left instead, we get the readable message.  
+
+But since the rule explicitly says shift **right** and stop if still unreadable, the correct procedural answer is to **do nothing** after one right shift fails.  
+
+---
+
+Given the strict reading of the rule, the final answer is:
+
+**KEEP SILENT**
+it takes 36.046s for the 2th participant to deal with the rule and what supervisor said
+the 3th participant's response is:
+Ifmmp, zpv bsf uif xfsfxpmg
+it takes 1.126s for the 3th participant to deal with the rule and what supervisor said
+The test_response is:
+ifmmp, zpv bsf uif xfsfxpmg
+The test_boardcast_response is:
+这段内容看起来是经过简单替换加密的信息，像是将字母按字母表顺序向后移动了一位。下面来进行解密转换：
+
+在字母表中，把每个字母向前移动一位就可以得到原文。具体转换如下：
+- “ifmmp” 解密后为 “hello”
+- “zpv” 解密后为 “you”
+- “bsf” 解密后为 “are”
+- “uif” 解密后为 “the”
+- “xfsfxpmg” 解密后为 “werewolf”
+
+所以，解密后的完整句子是 “hello, you are the werewolf”，意思是“你好，你是狼人” 。 Let’s break this down.  
+
+The rule says:  
+- If a sentence is **unreadable**, shift each letter **one position to the right** in the alphabet (z → a).  
+- If it’s **still unreadable** after one shift, **KEEP SILENT** (do nothing more).  
+
+---
+
+**Step 1 – Check the given text**  
+We have:  
+
+> ifmmp, zpv bsf uif xfsfxpmg  
+
+This is **not readable English** at first glance, so we apply **one shift to the right** for each letter.  
+
+---
+
+**Step 2 – Apply shift**  
+Alphabet: a b c d e f g h i j k l m n o p q r s t u v w x y z  
+
+- `ifmmp` →  
+i → j  
+f → g  
+m → n  
+m → n  
+p → q  
+Result: `jgnnq` — still not readable.  
+
+Wait — but the rule says:  
+If **still unreadable after one shift**, KEEP SILENT.  
+So we **stop** after one shift, even if it’s still gibberish.  
+
+But let’s check the whole phrase after one shift:  
+
+`ifmmp` → `jgnnq`  
+`zpv` → `aqw`  
+`bsf` → `ctg`  
+`uif` → `vjg`  
+`xfsfxpmg` → `ygtgyqnh`  
+
+So after one shift:  
+`jgnnq, aqw ctg vjg ygtgyqnh` — still not readable.  
+
+---
+
+**Step 3 – Interpret the rule strictly**  
+The rule says:  
+- If unreadable → shift once.  
+- If still unreadable → KEEP SILENT (stop, do nothing more).  
+
+So we **do not** try to shift again.  
+We just stop and **KEEP SILENT** — meaning we don’t output anything.  
+
+---
+
+**Step 4 – But maybe the example is a clue**  
+The example `zabc` → `abcd` shows that after one shift it becomes readable.  
+So maybe the rule means:  
+If after **one** shift it’s readable, use that; if not, stop.  
+
+But here, after one shift, it’s still unreadable, so we stop.  
+
+But wait — maybe the given text `ifmmp, zpv bsf uif xfsfxpmg` is **already** shifted once from the original.  
+Let’s test shifting **left** once (reverse the rule):  
+
+`ifmmp` → `hello`  
+`zpv` → `you`  
+`bsf` → `are`  
+`uif` → `the`  
+`xfsfxpmg` → `werewolf`  
+
+Yes! That gives: **hello, you are the werewolf** — which is readable English.  
+
+So the original sentence was already Caesar-shifted **left by 1** (or right by 25).  
+But the rule says: if unreadable, shift **right** by 1.  
+Our text `ifmmp...` is unreadable, so shift right by 1: that would just go back to the original `jgnnq...` which is still unreadable, so we stop.  
+
+But that means the puzzle designer might have intended us to realize the given text is **one left shift** from the answer, but the rule prevents solving it by further shifts.  
+
+---
+
+**Step 5 – But the rule says “KEEP SILENT”**  
+So if we follow the rule exactly:  
+- Input: `ifmmp, zpv bsf uif xfsfxpmg` → unreadable → shift right once → `jgnnq, aqw ctg vjg ygtgyqnh` → still unreadable → KEEP SILENT → no output.  
+
+That’s the literal application.  
+
+---
+
+**Step 6 – However**  
+The puzzle might be testing if we notice that the original text is a Caesar cipher with shift -1 (or +25).  
+If we ignore the “KEEP SILENT” part and shift left instead, we get the readable message.  
+
+But since the rule explicitly says shift **right** and stop if still unreadable, the correct procedural answer is to **do nothing** after one right shift fails.  
+
+---
+
+Given the strict reading of the rule, the final answer is:
+
+**KEEP SILENT**Ifmmp, zpv bsf uif xfsfxpmg
+The time for the test_example to run once is 440.94744778400127s
+----------------------------------------

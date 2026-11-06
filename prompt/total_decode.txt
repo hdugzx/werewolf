@@ -1,0 +1,4 @@
+For 'one‘, transfer every English letters to the one right to it while the distance of the two is one, for example, word 'zabc' will be transfered into 'abcd'
+For 'two', transfer every English letters to the one left to it while the distance of the two is one, for example, word 'abc' will be transfered into 'zab'
+For 'three', if the English letter's order in alphabet table is odd, transferring it to the one left to it while the distance of the two is one, otherwise transferring it into the one right to it while the distance of the two is one, for example, word 'abc' will be transfered into 'zcb'
+If the message everyone should know, then DO NOT use the encryption above.
